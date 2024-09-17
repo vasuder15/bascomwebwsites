@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.container .main {
+    text-decoration: none;
+    display: inline;
+    margin-top: 20px;
+
+
+}
+
+.container .main span {
+    text-decoration: none;
+    display: inline;
+    color: #111;
+
+}
+
+span {
+    margin-bottom: 5rem;
+}
+
+
+.container h1 {
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.banner {
+    margin-top: 16px;
+    margin-left: 6.5rem;
+}
+
+.banner ul li {
+    list-style: none;
+}
+
+#training-options-banner {
+    display: flex;
+    justify-content: flex-start;
+    /* Align items to the left */
+    gap: 15px;
+    /* Add space between buttons */
+}
+
+#training-options-banner .btn,
+#training-options-banner .btn1 {
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#training-options-banner .btn {
+    background-color: #117aef;
+    color: white;
+}
+
+#training-options-banner .btn1 {
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;
+}
+
+#training-options-banner .btn:hover {
+    background-color: #3360f4;
+}
+
+#training-options-banner .btn1:hover {
+    background-color: #117aef;
+    color: #fff;
+}
+
+.trainer-terms p {
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.trainer-terms p span img {
+    height: 100px;
+}
+
+.certificate-info h2 {
+    margin-top: 3rem;
+    font-size: xx-large;
+}
+
+.para {
+    margin-top: 1rem;
+}
+
+.key-features h3 {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.key-features .icon-list {
+    list-style: none;
+}
+
+.key-features .icon-list button {
+    background-color: #fff;
+
+    border: none;
+    font-size: xx-large;
+    float: right;
+    /* Moves the button to the right */
+}
+
+.toggle-content {
+    display: none;
+    margin-left: 20px;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    user-select: none;
+    list-style: none;
+}
+
+
+
+
+
+ul img {
+    height: 1.5rem;
+}
+
+.skill h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+.btn {
+    color: blue;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .extra-content {
+    display: none; /* Hide the extra content by default 
+    margin-top: 10px;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+.extra-content {
+    display: none;
+    /* Initially hidden */
+    
+}
+
+.extra-content ul {
+    
+    padding: 0;
+    list-style-type: none;
+}
+
+.extra-content .div1,
+.extra-content .div2 {
+   
+    gap: 1px;
+    width: 45%;
+}
+
+.extra-content li {
+    
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.extra-content img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.container .size {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.space h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0 0;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #272c37;
+}
+
+#eligiblities div {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 24px;
+}
+
+.advisor-btn .btn2 {
+    background-color: #007bff;
+    height: 50px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    margin-top: 2rem;
+    width: 200px;
+
+}
+
+.advisor-btn .btn3 {
+    margin-top: 2rem;
+    width: 200px;
+    color: #117aef;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    background: #fff;
+}
+
+.advisor-btn .btn3:hover {
+    margin-top: 2rem;
+    width: 200px;
+    background-color: #117aef;
+    border-radius: 3px;
+    border: 1px solid #117aef;
+    color: #fff;
+
+}
+
+.viewMore{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.viewLess{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.logos .hide-img .blend-mode {
+    line-height: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* For responsiveness */
+}
+
+.list-section {
+    width: 65%;
+    /* Take up 65% of the container's width */
+    padding-right: 20px;
+    /* Add space between list and image */
+}
+
+.image-section {
+    width: 30%;
+    /* Take up 30% of the container's width */
+    text-align: right;
+}
+
+.image-section img {
+    max-width: 100%;
+    /* Make the image responsive */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        /* Stack list and image vertically on small screens */
+    }
+
+    .list-section,
+    .image-section {
+        width: 100%;
+        /* Full width on small screens */
+    }
+
+    .image-section {
+        text-align: center;
+        /* Center the image */
+        margin-top: 20px;
+    }
+}
+
+/* .tools .logos .hide-img .blend-mode {
+    
+    width: 150px;
+}
+
+.tool img {
+    width: 150px;
+    letter-spacing: 2rem;
+} */
+
+.logos .hide-img .blend-mode {
+    line-height: 10px;
+    margin-right: 30px;
+    width: 110px;
+
+}
+
+.logos .blend-mode2 {
+    line-height: 10px;
+    margin-right: 20px;
+    width: 120px;
+}
+
+.card{
+    height: 370px;
+    margin-bottom: 2rem;
+}
+
+.readMore{
+    cursor: pointer;
+    color: #007bff;
+}
+
+.readMore:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+.hidden-content{
+    width: 850px;
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .hidden-content {
+        width: 300px; /* Medium screens, tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .hidden-content {
+        width: 850px; /* Larger screens, laptops/desktops */
+    }
+}
+
+@media (min-width: 1440px) {
+    .hidden-content {
+        width: 1000px; /* Extra large screens */
+    }
+}
+
+/* Laptop screens (1024px and above) */
+@media only screen and (min-width: 1024px) {
+    #tools-covered h3 {
+        font-size: 24px;
+    }
+
+    .logos img {
+        width: 180px;
+        /* Adjust width for laptop */
+    }
+}
+
+/* iPad screens (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #tools-covered h3 {
+        font-size: 22px;
+    }
+
+    .logos img {
+        width: 150px;
+        /* Adjust width for iPad */
+    }
+}
+
+/* Mobile screens (up to 767px) */
+@media only screen and (max-width: 767px) {
+    #tools-covered {
+        text-align: center;
+    }
+
+    #tools-covered h3 {
+        font-size: 18px;
+    }
+
+    .logos img {
+        width: 120px;
+        /* Adjust width for mobile */
+    }
+}
+
+/* Small mobile screens (up to 480px) */
+@media only screen and (max-width: 480px) {
+    #tools-covered h3 {
+        font-size: 16px;
+    }
+
+    .logos img {
+        width: 100px;
+        /* Adjust width for smaller mobile */
+    }
+}
+
+
+#body1 {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    animation: rotate 25s linear infinite;
+    margin-top: 400px;  
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 200px;
+    height: 200px;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(450px);
+    overflow: hidden; /* Ensures images do not overflow */
+}
+
+.slider span img {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .slider {
+        width: 200px;
+        height: 200px;
+        margin-top: 200px;
+    }
+
+    .slider span {
+        width: 150px;
+        height: 150px;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+    }
+}
+
+/* Tablets (portrait) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .slider {
+        width: 250px;
+        height: 250px;
+        margin-top: 400px;
+    }
+
+    .slider span {
+        width: 200px;
+        height: 200px;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    }
+}
+
+/* Tablets (landscape) and small desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .slider {
+        width: 300px;
+        height: 300px;
+    }
+
+    .slider span {
+        width: 250px;
+        height: 250px;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+    .slider {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slider span {
+        width: 300px;
+        height: 300px;
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(450px);
+    }
+}
