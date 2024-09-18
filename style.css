@@ -585,19 +585,6 @@ ul li span {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -605,4 +592,63 @@ ul li span {
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* General Styles */
+.card {
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .carousel-item {
+        /* Adjust spacing and layout for tablets */
+        padding: 0 10px;
+    }
+
+    .card {
+        /* Adjust card size and margin for tablets */
+        margin: 10px 5px;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-body {
+        /* Adjust text size for better readability on tablets */
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .carousel-item {
+        /* Adjust spacing and layout for mobile */
+        padding: 0 5px;
+    }
+
+    .card {
+        /* Adjust card size and margin for mobile */
+        margin: 10px 2px;
+    }
+
+    .card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card-body {
+        /* Adjust text size for better readability on mobile */
+        font-size: 0.8rem;
+    }
 }
