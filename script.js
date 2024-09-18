@@ -13,6 +13,20 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".readMore").click(function(){
+        $(".extra").slideDown(); // Show the extra content with a slide-down effect
+        $(this).hide(); // Hide the "View More" button
+        $(".readLess").show(); // Show the "View Less" button
+    });
+
+    $(".readLess").click(function(){
+        $(".extra").slideUp(); // Hide the extra content with a slide-up effect
+        $(this).hide(); // Hide the "View Less" button
+        $(".readMore").show(); // Show the "View More" button
+    });
+});     
+
 
 $(document).ready(function(){
     $(".viewMore").click(function(){
@@ -40,6 +54,5 @@ toggleBtn.addEventListener('click', () => {
     toggleBtn.innerHTML = '+';
   }
 });
-
 
 

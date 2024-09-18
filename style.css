@@ -152,7 +152,9 @@ ul img {
 }
 
 
-
+.skill-covered {
+    margin-top: 1rem;
+}
 
 
 .btn {
@@ -363,6 +365,11 @@ ul li span {
     color: #007bff;
 }
 
+.readLess{
+    cursor: pointer;
+    color: #007bff;
+}
+
 .readMore:hover{
     cursor: pointer;
     color: #000;
@@ -547,4 +554,55 @@ ul li span {
         height: 300px;
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(450px);
     }
+}
+
+
+.extra {
+    display: none;
+    /* Initially hidden */
+    
+}
+
+.extra ul {
+    
+    padding: 0;
+    list-style-type: none;
+}
+
+.extra .div1,
+.extra .div2 {
+   
+    gap: 1px;
+    width: 45%;
+}
+
+.extra li {
+    
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
